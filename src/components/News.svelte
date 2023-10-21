@@ -117,16 +117,6 @@
 </script>
 
 {#if !loading}
-<!-- lolesportsads -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4490010434157169"
-     data-ad-slot="4656574111"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
          <!-- My-Slide-Section -->
           <div class="HomeHero" style="height: 500px; position: relative;">
   <img class="card-img-top" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte299f23c6e55ebed/63bcad4899e03c1edced9b6f/VAL_Ep6_Homepage-CG-Still.jpg" alt="" style="object-fit: cover; height: 102%; width: 100%;">
