@@ -1,0 +1,258 @@
+.card-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #fff;
+}
+
+:root {
+  --bg-color: #0f1519;
+}
+
+body {
+
+  font-family: 'Bebas Neue', sans-serif;
+  background-image: url('https://www.riotgames.com/assets/img/content/e99be4b4cd0b958b04fa3adceb5ce5ee/explore-hero-bg--large.jpg');
+  background-size: cover;
+  background-position: 50% 0;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #28a745;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.nav-link {
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  background-color: #28a745;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler i {
+  color: #fff;
+}
+
+.navbar-nav li a:hover {
+  color: #f8f9fa;
+}
+
+.navbar-nav li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:focus .nav-link {
+  font-weight: bold;
+  color: #f8f9fa;
+}
+
+.navbar-nav.flex-row {
+  align-items: center;
+}
+
+.navbar-nav.flex-row .nav-item {
+  padding: 0 10px;
+}
+
+.navbar-nav.flex-row .nav-item a {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.navbar-nav.flex-row .nav-item a i {
+  font-size: 1.2rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0); /* Transparent background */
+  margin-bottom: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card .header {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card .content-type {
+  font-size: 22px;
+  color: #e3d1d1;
+  margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 6px;
+  margin-top: 9px;
+  border:2px solid #252359;
+  padding: 5px 10px !important;
+  letter-spacing: 0.1rem !important;
+  position: absolute;
+  font-weight: 691 !important;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.card .title {
+  font-size: 21px;
+  font-weight: bolder;
+  color: white;
+  margin-left: 4px;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  padding-bottom: 9px;
+  border-top-width: 0px;
+  border-top-style: solid;
+  padding-top: 64px;
+  margin-right: 0px;
+  border-right-width: 0px;
+  border-right-style: solid;
+  padding-right: 0px;
+  padding-left: 7px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.text-createdat {
+  font-size: 12px;
+  color: rgba(254, 254, 255, 0.75) !important;
+}
+
+.load-more-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.load-more {
+  display: flex;
+  align-items: center;
+}
+
+.load-more-button {
+  background-color: #252359;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: cell;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  margin-right: 1px;
+  margin-left: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.load-more-button:hover {
+  background-color: #333;
+}
+
+.load-more-button .plus {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .load-more-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .load-more {
+    margin-bottom: 1rem;
+  }
+}
+
+.et_pb_text_inner {
+  color: white;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 45px;
+
+}
+
+.et_pb_text_inner h2 {
+  font-size: 54px;
+  margin-bottom: 10px;
+  margin-top: 19px;
+}
+
+.et_pb_text_inner hr {
+  border: none;
+  height: 6px;
+  background-color: white;
+  margin: -3px 0;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.spinner svg {
+  animation: rotate 1s linear infinite;
+  width: 300px;
+  height: 300px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
