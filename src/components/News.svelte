@@ -135,7 +135,7 @@
         <div class="card" style="background-color: transparent;">
           <a class="content-block article" href="{
             entry.type === 'article'
-              ? entry.external_link?.url || `https://lolesports.com/article/${entry.uid}`
+              ? entry.external_link?.url || `https://lolesports.com/article/${encodeURIComponent(entry.title)}/${encodeURIComponent(entry.uid)}`
               : entry.video_id
                 ? `https://lolesports.com/video/${entry.video_id}`
                 : `https://lolesports.com/video/${entry.uid}`
